@@ -23,7 +23,7 @@ int main()
 {
     
     int a,b;
-    cout<<"\nEnter the nos\n";
+    cout<<"\nEnter the nombers\n";
     cin>>a>>b;
 	Swap s1(a), s2(b);
     swap(s1,s2);

@@ -13,17 +13,7 @@ class Message
 		Message()
 		{
 			count++;
-		}
-		
-		void initMessage(char s[])
-		{
-			strcpy(st,s);
-		}
-				
-		void printMessage(void)
-		{
-			cout << st << endl;
-		}		
+		}				
 		
 		static int totalObjects(void)
 		{
@@ -40,15 +30,8 @@ int main()
 	Message M2;
 	Message M3;
 	
-	M1.initMessage("Message one");
-	M2.initMessage("Message two");
-	M3.initMessage("Message three");
 	
-	M1.printMessage();
-	M2.printMessage();
-	M3.printMessage();
 	
-	//printing object count 
 	cout << "Total objects created: " << Message::totalObjects() << endl;
 	
 	return 0;
