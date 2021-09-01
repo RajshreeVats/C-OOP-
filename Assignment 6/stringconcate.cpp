@@ -9,7 +9,7 @@ class String {
 public:
     char s1[20], s2[20];
  
-    // Parameterized Constructor
+
     String(char str1[], char str2[])
     {
         strcpy(this->s1, str1);
