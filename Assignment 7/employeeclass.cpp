@@ -31,7 +31,7 @@ class Regular : public employee {
         cout<<"NAME  :"<<name<<endl;
         cout<<"AGE  :"<<age<<endl;
         cout<<"ID  :"<<id<<endl;
-        cout<<"SALARY  :"<<salary<<endl;
+        cout<<"SALARY  :"<<salary<<"per hour"<<endl;
         cout<<"GROSS  :"<<gross<<endl;
     }
 
